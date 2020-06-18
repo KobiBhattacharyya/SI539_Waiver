@@ -1,0 +1,22 @@
+#time
+{
+    font-weight:bold;
+}
+#average
+{
+    font-weight:bold;
+}
+#fastest {
+    font-weight: bold;
+}
+#box-location
+{
+    /* float:left; */
+    width:100%;
+    min-height:80%;
+}
+
+#shape
+{
+    position: absolute;
+}

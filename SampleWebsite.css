@@ -1,0 +1,46 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+    background-color: black;
+    background-size: 100% 100%;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    margin-top:50px;
+}
+
+#navbar {
+    margin-bottom:20px;
+}
+
+.gameSelectButton {
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+}
+
+#mail-list-enter {
+    width:250px;
+}
+
+#fr {
+    margin: 0 auto;
+}
+
+.card-img-top {
+    height:200px;
+    width:100%;
+}
+
+#card-header {
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:25px;
+    border-radius:20px;
+    border:thin solid grey;
+}
+
+#cards {
+    margin-bottom:25px;
+}
