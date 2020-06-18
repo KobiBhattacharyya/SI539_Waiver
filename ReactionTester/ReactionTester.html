@@ -10,19 +10,21 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Reaction Game <span class="d-block d-sm-none">(Mobile Version)</span></h1>
-        <p>Click on the boxes and circles as quickly as you can!</p>
-        <div class="container">
-            <div class="row" role="main">
-                <span id="time" class="col-12 col-sm-4">Your time: 0.000</span>
-                <span id="average" class="col-12 col-sm-4">Average time: 0.000</span>
-                <span id="fastest" class="col-12 col-sm-4">Fastest time: 0.000</span>
-                <button id="start-button" class="btn btn-dark col-8 offset-2 col-sm-6 offset-sm-3" aria-label="Begin game">Begin!</button>
+        <div role="main">
+            <h1>Reaction Game <span class="d-block d-sm-none">(Mobile Version)</span></h1>
+            <p>Click on the boxes and circles as quickly as you can!</p>
+            <div class="container">
+                <div class="row">
+                    <span id="time" class="col-12 col-sm-4">Your time: 0.000</span>
+                    <span id="average" class="col-12 col-sm-4">Average time: 0.000</span>
+                    <span id="fastest" class="col-12 col-sm-4">Fastest time: 0.000</span>
+                    <button id="start-button" class="btn btn-dark col-8 offset-2 col-sm-6 offset-sm-3" aria-label="Begin game">Begin!</button>
+                </div>
             </div>
-        </div>
 
-        <div id="box-location">
-            <div id="shape"></div>
+            <div id="box-location">
+                <div id="shape"></div>
+            </div>
         </div>
 
         <script src="ReactionTester.js"></script>
